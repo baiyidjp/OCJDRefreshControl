@@ -8,4 +8,6 @@
     [self.refreshTableView addSubview:self.refreshControl];   
 4--> 拿到数据后 结束刷新  [self.refreshControl endRefreshing];   
 
-仅供参考
+仅供参考    
+
+可以根据需求自定义图片文字 逻辑已经写好
