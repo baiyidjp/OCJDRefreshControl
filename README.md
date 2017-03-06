@@ -11,12 +11,14 @@ self.refreshControl = [[JPRefreshControl alloc] initWithFrame:CGRectZero];
 [self.refreshTableView addSubview:self.refreshControl];
 ```
 
-- 4--> 拿到数据后 结束刷新 仅供参考    
+- 4--> 拿到数据后 结束刷新   
 
 ```
  [self.refreshControl endRefreshing];   
-
 ```
+
+#####[附:Swift版本](https://github.com/baiyidjp/SwiftJDRefreshControl)
+
 
 ###可以根据需求自定义图片文字 逻辑已经写好    
 
